@@ -1,6 +1,6 @@
 ---
 layout: base
-title: I'm [Siddharth Hota]
+title: I'm Siddharth Hota
 hide: true
 ---
 
@@ -13,7 +13,7 @@ Hi! My name is Siddharth Hota.
 | Scrum Master | John     | github.com/jm1021/student           | upstream (OCS fork)   | student   |
 | Scrummer     | Siddharth| github.com/SidH011/student          | downstream (fork)     | student   |
 | Scrummer     | Ishan    | github.com/Jupiterian/student       | downstream (fork)     | student   |
-| Scrummer     | Dhrub    | github.com/dhruvA207/student        | downstream (fork)     | student   |
+| Scrummer     | Dhruv    | github.com/dhruvA207/student        | downstream (fork)     | student   |
 
 
 ## Links to Learning
