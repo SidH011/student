@@ -45,7 +45,7 @@ Hi! My name is Siddharth Hota.
 <a href="{{site.baseurl}}/turtle" class="button small" style="background-color: #2A7DB1">
     <span style="color: #000000">Turtle</span>
 </a>
-<a href="{{site.baseurl}}/turtle" class="button small" style="background-color: #9d9ca1ff">
+<a href="{{site.baseurl}}/turtle" class="button small" style="background-color: #00837eff">
     Tic-Tac-Toe
 </a>
 
