@@ -15,22 +15,22 @@ breadcrumb: True
 Welcome to your journey of setting up your Operating System and Tools! This setup process will guide you through working in a Linux terminal, managing folders, cloning a project, and adding packages. This is a fundamental skill for any developer or cyber security expert.
 
 ## Visual Representation of the Workflow
-```text
-+-------------------+       +-------------------+       +-------------------+       +-------------------+       +-------------------+
-|                   |       |                   |       |                   |       |                   |       |                   |
-|  Linux Terminal   | ----> |  Shell Commands   | ----> |   Clone Project   | ----> |  Package Manager  | ----> |       SDLC        |
-|                   |       |                   |       |                   |       |                   |       |                   |
-+-------------------+       +-------------------+       +-------------------+       +-------------------+       +-------------------+
-        |                           |                           |                           |                            |
-        v                           v                           v                           v                            v
-  Open Terminal              Terminal/Folder Mgmt         Clone the project          Set up and configure       Establish a development
-                             Files and Folders            repository from            the tools required              workflow 
-                                Management                version control             (Ruby, Python)               (SDLC) phases
+
+```mermaid
+flowchart TD
+    A["💻 Open Terminal"] 
+    B["> Linux Commands<br>mkdir, cd, ls"]
+    C["📁 Clone Project<br>git clone https://<your-repo>"]
+    D["🛠️ Activate Tools<br>Ruby, Python, Git"]
+    E["🔄 SDLC<br>code->make->test->commit"]
+
+    A --> B --> C --> D --> E
 ```
 
 ## Shell Commands
 
 You’ll use standard Unix shell commands:
+
 - MacOS: `ls`, `pwd`, `mkdir`, `cd`, `git`, `cat`
 
 ## Version Control Commands
@@ -52,27 +52,54 @@ You’ll use standard Unix shell commands:
 
 ## MacOS Setup
 
-### Install VS Code and Homebrew
+### 1. Install Homebrew
 
-1. **Install VS Code**  
-   [VS Code link and instructions]
+Open a MacOS **Terminal** (keep it in the Dock for easy access).  
+Follow the instructions on [Homebrew Install](https://brew.sh/).  
 
-2. **Run initialization scripts**
-   
+### 2. Install VS Code
+
+Download and install [VS Code](https://code.visualstudio.com/download) for Mac.  
+
+### 3. First-time Setup
+
+⚠️ Run these commands **one line at a time** in Terminal.
+
 ```bash
-git clone https://github.com/open-coding-society/student.git
-cd student
-chmod +x ./scripts/initialize_macos.sh
+mkdir opencs
+cd opencs
+git clone https://github.com/Open-Coding-Society/student.git
+cd student/
 ./scripts/activate_macos.sh
+./scripts/activate.sh # prompts for Git UID and Personal Email
+./scripts/venv.sh
 ```
----
 
-## Version Checks
+#### Setup Checks (Optional)
+
+Open a new MacOS "terminal" by clicking Terminal Icon in Dock
+
+You can always come back to these checks later if your tools stop working.
+
 ```bash
+python --version
+pip --version
 ruby -v
 bundle -v
-python --version
-jupyter --version
+gem --version
+git config --global --list
+```
+
+#### Starting a session to work in VSCode
+
+Open a new MacOS "terminal"
+
+Each time you open a new Terminal to work, run:
+
+```bash
+cd opencs/student
+source venv/bin/activate # activate Python virtual environment
+code .
 ```
 
 ---
