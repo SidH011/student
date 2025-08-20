@@ -109,7 +109,7 @@ Here is my life story as of now
 
 Everything for me, as for many others, revolves around family and faith.
 
-- I am born and raised in San Diego, but both my parents were born and raised in Bhubuneshwar, Odisha, India
+- I am born and raised in San Diego, but both my parents were born and raised in Bhubuneshwar, Odisha, India 🇮🇳
 - My immediate family consists of my 2 parents, alongside my brother, and myself
 
 <!-- <comment>
