@@ -17,7 +17,7 @@ permalink: /snake/
         display: none;
         border-style: solid;
         border-width: 10px;
-        border-color: #FFFFFF;
+        border-color: #4a0000ff;
     }
     canvas:focus{
         outline: none;
@@ -183,7 +183,7 @@ permalink: /snake/
             button_setting_menu.onclick = function(){showScreen(SCREEN_SETTING);};
             button_setting_menu1.onclick = function(){showScreen(SCREEN_SETTING);};
             // speed
-            setSnakeSpeed(150);
+            setSnakeSpeed(35); // Set initial speed to fastest (was 150)
             for(let i = 0; i < speed_setting.length; i++){
                 speed_setting[i].addEventListener("click", function(){
                     for(let i = 0; i < speed_setting.length; i++){
@@ -270,10 +270,12 @@ permalink: /snake/
             ctx.fillStyle = "royalblue";
             ctx.fillRect(0, 0, canvas.width, canvas.height);
             // Paint snake
+            ctx.fillStyle = "red"; // Set snake color to red
             for(let i = 0; i < snake.length; i++){
                 activeDot(snake[i].x, snake[i].y);
             }
             // Paint food
+            ctx.fillStyle = "#FFFFFF"; // Set food color back to white
             activeDot(food.x, food.y);
             // Debug
             //document.getElementById("debug").innerHTML = snake_dir + " " + snake_next_dir + " " + snake[0].x + " " + snake[0].y;
@@ -327,7 +329,6 @@ permalink: /snake/
         /* Dot for Food or Snake part */
         /////////////////////////////////////////////////////////////
         let activeDot = function(x, y){
-            ctx.fillStyle = "#FFFFFF";
             ctx.fillRect(x * BLOCK, y * BLOCK, BLOCK, BLOCK);
         }
         /* Random food placement */
@@ -353,9 +354,9 @@ permalink: /snake/
         }
         /////////////////////////////////////////////////////////////
         // Change the snake speed...
-        // 150 = slow
-        // 100 = normal
-        // 50 = fast
+        // 35 = fast
+        // 75 = normal
+        // 120 = slow
         let setSnakeSpeed = function(speed_value){
             snake_speed = speed_value;
         }
