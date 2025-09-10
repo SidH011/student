@@ -72,3 +72,25 @@ This will run the `install` task defined in your `Makefile`.
 2. Activate it using `source /home/sidh001/student/venv/bin/activate`.
 3. Use `make` to automate tasks.
 4. Refer to troubleshooting steps if you encounter
+
+## 5. Commands to Know
+
+Here are some essential Linux commands, their functionality, usage, and how they relate to publishing on GitHub Pages:
+
+| Command | Functionality | Usage Example | Relevance to GitHub Pages |
+|---------|--------------|--------------|--------------------------|
+| `cd`    | Change directory | `cd /home/sidh001/student` | Navigate to your project folder to manage or publish your site |
+| `ls`    | List files and directories | `ls` | View files in your project, such as `_posts`, `Makefile`, etc. |
+| `pwd`   | Print working directory | `pwd` | Confirm your current location in the filesystem before running commands |
+| `cp`    | Copy files or directories | `cp file.md backup.md` | Backup important files before making changes |
+| `mv`    | Move or rename files | `mv draft.md post.md` | Organize or rename blog posts before publishing |
+| `rm`    | Remove files or directories | `rm old.md` | Clean up obsolete files from your project |
+| `cat`   | Display file contents | `cat README.md` | Quickly view documentation or configuration files |
+| `nano` / `vim` | Edit files in terminal | `nano _config.yml` | Make quick edits to your site configuration |
+| `git`   | Version control | `git add .`, `git commit -m "Update"`, `git push`, `git pull`| Track changes and publish your site to GitHub Pages, also be able to pull from the directory you forked from|
+
+**How these commands relate to publishing on GitHub Pages:**
+- You use `cd`, `ls`, and `pwd` to navigate and manage your project files.
+- `cp`, `mv`, and `rm` help organize and maintain your blog content.
+- `cat`, `nano`, and `vim` allow you to view and edit files directly.
+- `git` is essential for pushing your changes to GitHub, which triggers the publishing of your site via GitHub Pages.
