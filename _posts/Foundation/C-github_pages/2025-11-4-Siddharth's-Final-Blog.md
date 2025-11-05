@@ -32,9 +32,9 @@ In Sprint 3, we brought all of our learnings together as a class to create one f
 
 After observing for the first half hour or so at N@tM, we knew what our ask was. We quickly set up our booth, and got to speaking about our level. We had over 20 people come to our table and test our game, and all 20 gave it a positive review! Two comments which stuck out to me were one by Aadit Mathur which highlighted the transitions, user interface, and overall smoothness in which the game ran, and another review by a guest who very wisely suggested that we implement a quick menu which went over the full functionality of the game and how every aspect worked in unison. Overall, N@tM was a fabulous experience, where I not only got the opportunity to present our final project, but was additionally able to grasp great learnings from my peers/upperclassman alike.
 
-![Listening to other presentations](/assets/images/N@tM_1.jpg)
+![Listening to other presentations](/student/images/N@tM_1.jpg)
 
-![Listening to other presentations](/assets/images/N@tM_2.jpg)
+![Listening to other presentations](/student/images/N@tM_2.jpg)
 
 
 ## What do you want to do next on project, given time?
