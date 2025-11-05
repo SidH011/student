@@ -10,11 +10,11 @@ permalink: /Siddharth/Final-blog
 
 ### Compare yourself to the beginning of the year
 
-In the beginning of the year, I came in eager to learn about the ventures of computer science, and this introductory course has done exactly that! At the start, I knew little about javascript and python. However, as the year progressed, through the help of the fabulous lessons, course work, and of course teacher, I was able to fully understand and begin implementing the fundamentals of these two concrete languages. Additionally, I had not a clue in the world about the realms of markdown, yet through the hands-on blog coding (like I’m doing now!) we had to do it, I was able to slowly but surely grasp the domains of the .md! Overall, I have come out of computer science 1 with knowledge I would have never imagined myself learning at the beginning of the year, and am beyond excited for what computer science 2 will behold!
+## Before
+In the beginning of the year, I came in eager to learn about the ventures of computer science, and this introductory course has done exactly that! At the start, I knew little about javascript and python. Additionally, from a softskills perspective, I didn't think much of hard deadlines and had no idea about the ideation process and how to properly plan and work.
 
-Additionally, to showcase my learnings, I have created a troubleshooting blog about all of the utitilities we used
-
-[Siddharth's Troubleshooting blog](https://sidh011.github.io/student/2025/09/09/Siddharth's-troubleshooting-blog.html)
+## After
+However, as the year progressed, through the help of the fabulous lessons, course work, and of course teacher, I was able to fully understand and begin implementing the fundamentals of these two concrete languages. Additionally, I had not a clue in the world about the realms of markdown, yet through the hands-on blog coding (like I’m doing now!) we had to do it, I was able to slowly but surely grasp the domains of the .md! Overall, I have come out of computer science 1 with knowledge I would have never imagined myself learning at the beginning of the year, and am beyond excited for what computer science 2 will behold!
 
 ---
 
@@ -24,13 +24,23 @@ Additionally, to showcase my learnings, I have created a troubleshooting blog ab
 
 In the first sprint, we started off by setting up WSL, which stands for windows subsystem for linux. Upon setting this up, we deep dived into the worlds of github repositories, where we forked, cloned and set up our student repository and pages. From here, we learned about jekyll, committing, pulling requests, and finally ended with jupyter notebooks alongside a troubleshooting blog. Finally, we concluded the sprint by creating small games under and LxD mainpage, which brought together all of our learnings. In this, I created a snake game in which I added multiple tones of extra functionalities to the game, such as increased speed, difficulties, barriers, etc. 
 
-The link to the game can be accessed here: https://jupiterian.github.io/student/snake.  
+Additionally, to showcase my learnings, I have created a troubleshooting blog about all of the utitilities we used
+
+[Siddharth's Troubleshooting blog](https://sidh011.github.io/student/2025/09/09/Siddharth's-troubleshooting-blog.html)
+
+The link to the Snake game as mentioned earlier can be accessed here
+
+[Siddharth's Snake Game](https://jupiterian.github.io/student/snake) 
 
 Overall, sprint 1 was the perfect introduction to the course, where we learned about the majority of the tools which we would be utilizing and understood the key fundamentals. 
 
 ### Sprint 2 - Fundamentals of JavaScript
 
 During this sprint, we began analyzing and teaching lessons about the fundamentals of JavaScript, and showcasing these foundational skills through the “hacks” we had made in the previous sprint. During this time frame, we had to learn about the essential javascript topics of Variables, Booleans, Classes and Variables, Functions, Conditionals, Classes and Methods, Arrays, Strings, Data Abstraction, Classes and Constructors, Iteration, and Math Expressions. The lessons presented by my peers were amazing, and the hands-on homeworks and popcorn hacks made it so the learnings would stick. My group was in charge of creating the lessons/homeworks for Strings, alongside Classes/Constructors. During this timeframe, I was able to really enhance my learning of javascript, and the sprint was the perfect way of starting the learning process for the fundamentals of Javascript.
+
+Our strings lesson which we presented directly to Mr.Mort can be accessed here
+
+[Makers String Lesson](https://pages.opencodingsociety.com/Javascript/strings-lesson)
 
 ### Sprint 3 - Quest of Spook gamify
 
