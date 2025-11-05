@@ -73,11 +73,13 @@ In total, on my personal student repository, I had over 70 commits, spanning to 
 
 ![Analytics Review](/student/images/Analytics.png)
 
+![Kahn Ban Board](/student/images/KanBan.png)
+
 ## Something cool, you want to tell.
 
 Something cool I wanted to tell you, is how we came across the idea of creating our background with each individual sprite, which I recall Mr.Mortenson quite enjoyed. As he talked about the game engine and its functionality, my mind sprung to how the collision systems and interactions would work. I realized the best method of achieving a clean, professional game would be to have each game object be its own entity, and upon sharing this idea with my team we sprang to work. After hours of searching, we finally came up with a final sprite sheet which we were happy with, and once getting the approval began implementing. This outside the box thinking which no other group during the project did is something which I found very cool, and also one that my team executed expertly! With each game object being its own entity, it made hit boxes and barrier collisions much more accurate then what would’ve been, and allowed for us to focus in on creating an as smooth as possible final product to behold. Additionally, the fading in details on our level and vibrant colors/user interface was something which I thought was cool, too!
 
-![Casino Background Sprite Sheet](/student/images/Casino2.pngss)
+![Casino Background Sprite Sheet](/student/images/Casino2.png)
 
 ## Final remarks
 With this, I conclude my Computer Science 1 final blog. This course was everything I could’ve wished for as my introduction to computer science, and with the help of my excellent teacher and peers, I am now beyond excited for what the next computer science will hold!
