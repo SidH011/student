@@ -1,8 +1,9 @@
 ---
-title: "Compare yourself to the beginning of the year"
+title: "Final Blog"
 layout: post
 date: 2025-11-04
 tags: [reflection, foundation, comp-sci]
+permalink: /Siddharth/Final-blog
 ---
 
 # Compare yourself to the beginning of the year
