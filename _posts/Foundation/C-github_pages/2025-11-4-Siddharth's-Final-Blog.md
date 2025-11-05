@@ -12,13 +12,21 @@ permalink: /Siddharth/Final-blog
 
 In the beginning of the year, I came in eager to learn about the ventures of computer science, and this introductory course has done exactly that! At the start, I knew little about javascript and python. However, as the year progressed, through the help of the fabulous lessons, course work, and of course teacher, I was able to fully understand and begin implementing the fundamentals of these two concrete languages. Additionally, I had not a clue in the world about the realms of markdown, yet through the hands-on blog coding (like I’m doing now!) we had to do it, I was able to slowly but surely grasp the domains of the .md! Overall, I have come out of computer science 1 with knowledge I would have never imagined myself learning at the beginning of the year, and am beyond excited for what computer science 2 will behold!
 
+Additionally, to showcase my learnings, I have created a troubleshooting blog about all of the utitilities we used
+
+[Siddharth's Troubleshooting blog](https://sidh011.github.io/student/2025/09/09/Siddharth's-troubleshooting-blog.html)
+
 ---
 
 ## Remember key things from 3 sprints (Tools, Fundamentals of JavaScript,  Quest of Spook gamify.
 
 ### Sprint 1 - Tools
 
-In the first sprint, we started off by setting up WSL, which stands for windows subsystem for linux. Upon setting this up, we deep dived into the worlds of github repositories, where we forked, cloned and set up our student repository and pages. From here, we learned about jekyll, committing, pulling requests, and finally ended with jupyter notebooks alongside a troubleshooting blog. Finally, we concluded the sprint by creating small games under and LxD mainpage, which brought together all of our learnings. In this, I created a snake game in which I added multiple tones of extra functionalities to the game, such as increased speed, difficulties, barriers, etc. The link to the game can be accessed here: https://jupiterian.github.io/student/snake.  Overall, sprint 1 was the perfect introduction to the course, where we learned about the majority of the tools which we would be utilizing and understood the key fundamentals. 
+In the first sprint, we started off by setting up WSL, which stands for windows subsystem for linux. Upon setting this up, we deep dived into the worlds of github repositories, where we forked, cloned and set up our student repository and pages. From here, we learned about jekyll, committing, pulling requests, and finally ended with jupyter notebooks alongside a troubleshooting blog. Finally, we concluded the sprint by creating small games under and LxD mainpage, which brought together all of our learnings. In this, I created a snake game in which I added multiple tones of extra functionalities to the game, such as increased speed, difficulties, barriers, etc. 
+
+The link to the game can be accessed here: https://jupiterian.github.io/student/snake.  
+
+Overall, sprint 1 was the perfect introduction to the course, where we learned about the majority of the tools which we would be utilizing and understood the key fundamentals. 
 
 ### Sprint 2 - Fundamentals of JavaScript
 
@@ -35,6 +43,8 @@ After observing for the first half hour or so at N@tM, we knew what our ask was.
 ![Listening to other presentations](/student/images/N@tM_1.jpg)
 
 ![Listening to other presentations](/student/images/N@tM_2.jpg)
+
+![Listening to other presentations](/student/images/Review.webp)
 
 
 ## What do you want to do next on project, given time?
